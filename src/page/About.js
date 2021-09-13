@@ -12,7 +12,7 @@ function About() {
       <p className='my-10 text-justify'>
         I am an IT student at YARSI University. I am passionate about website
         development and am currently in the project of creating a portfolio with
-        a frameworks/libraries from javascript. I want to explore, learn and
+        a frameworks/libraries from JavaScript. I want to explore, learn and
         experience more. Learning to the new things in order to expand my
         knowledge and experiences in a productive way is one of my greatest
         goals as a career.
@@ -27,6 +27,7 @@ function About() {
               href={href}
               target='_blank'
               rel='noreferrer'
+              role='button'
               className='hover:text-primary hover:font-bold'
             >
               <span className='mr-2'>{icon}</span>

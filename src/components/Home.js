@@ -1,14 +1,27 @@
-import * as Page from './index';
+import * as Page from '../page';
+import Content from './Content';
 
 function Home() {
   return (
-    <main className='w-4/5 bg-primary-dark'>
-      <Page.Content className='mt-44' id='about'>
+    <main className='inline-block w-4/5 ml-auto bg-primary-dark'>
+      <Content className='py-48' id='about'>
         <Page.About />
-      </Page.Content>
-      <Page.Content>
+      </Content>
+      <Content className='py-32' id='experience'>
         <Page.Experience />
-      </Page.Content>
+      </Content>
+      <Content className='py-48' id='education'>
+        <Page.Education />
+      </Content>
+      <Content className='py-52' id='skills'>
+        <Page.Skills />
+      </Content>
+      <Content className='py-56' id='interests'>
+        <Page.Interests />
+      </Content>
+      <Content className='py-48' id='awards'>
+        <Page.Awards />
+      </Content>
     </main>
   );
 }
